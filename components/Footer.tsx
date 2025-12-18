@@ -5,9 +5,7 @@ export default function Footer() {
         <p className="text-zinc-600 dark:text-zinc-400">
           © {new Date().getFullYear()} UniConnect
         </p>
-        <p className="text-zinc-600 dark:text-zinc-400">
-          Next.js + Tailwind
-        </p>
+        <p className="text-zinc-600 dark:text-zinc-400">        </p>
       </div>
     </footer>
   );
