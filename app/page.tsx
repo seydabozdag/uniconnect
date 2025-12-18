@@ -1,4 +1,11 @@
 import Image from "next/image";
+import { courses, clubs } from "./lib/data";
+import { recommend } from "./lib/recommend";
+
+const userTags = ["ai"];
+
+const recommendedCourses = recommend(userTags, courses);
+
 
 export default function Home() {
   return (
